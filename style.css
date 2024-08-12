@@ -1,0 +1,130 @@
+@font-face {
+    font-family: founders;
+    src: url(./FoundersGrotesk-Semibold.woff2);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #F1F1F1;
+  overflow: hidden;
+}
+
+/*nav*/
+
+.navv {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  height: 5%;
+  width: 100%;
+  color: black;
+  font-family: sans-serif;
+  
+  /*background-color: blueviolet;*/
+}
+.left {
+  font-size: 30px;
+ font-weight: bold;
+}
+.middle {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 10px;
+  text-transform: capitalize;
+  margin-left: 400px;
+}
+.right {
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+/*box*/
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*background-color: aqua;*/
+}
+.para {
+  padding:110px 60px;
+  font-weight: 500;
+  font-size: 140px;
+  font-family: founders;
+  line-height: 100px;
+  color: #212121;
+}
+img {
+  height: 90px;
+  border-radius: 10px;
+}
+.btn {
+  margin-bottom: 120px;
+  width: 55px;
+  height: 175px;
+  padding: 10px;
+  background-color:#E73C37;
+  color: white;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+.w{
+    font-size: 20px;
+}
+.txt{
+    transform:rotate(270deg);
+    width: 90px;
+   
+}
+/*last part*/
+.last {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.endbar {
+  display: flex;
+  justify-content: space-between;
+}
+.project {
+  background-color: white;
+  border-radius: 25px;
+  padding: 5px 10px;
+  font-size: 15px;
+  color:#212121;
+}
+.arrow {
+ 
+ padding: 5px;
+
+}
+.round-btn{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-cnt{
+    gap: 10px;
+   display: flex; 
+   justify-content: center;
+}
+.scroll {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  color: rgba(234, 227, 227, 0.937);
+}
